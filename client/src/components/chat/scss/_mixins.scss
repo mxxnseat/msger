@@ -1,0 +1,15 @@
+@mixin message {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: $black;
+}
+
+@mixin push_message {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    color: $blue;
+}

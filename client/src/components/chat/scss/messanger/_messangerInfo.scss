@@ -1,0 +1,46 @@
+.messanger{
+    padding-top: 35px;
+    &__header{
+        padding-bottom: 23px;
+        border-bottom: 1px solid $grey;
+    }
+    &__room{
+        &-name{
+            font-weight: 700;
+            font-size: 20px;
+            color: $black;
+        }
+        &-members{
+            color: $grey;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+
+            &:before{
+                content: '';
+                width: 10.5px;
+                height: 15px;
+                background-image: url("../../../../assets/i/members.svg");
+                background-repeat: no-repeat;
+                margin-right: 6px;
+            }
+        }
+        &-search{
+            input{
+                width: 100%;
+                padding: 8px 16px;
+                outline: none;
+                border: .5px solid $grey;
+                border-radius: 4px;
+                @include message();
+
+                &::placeholder{
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: $grey;
+                }
+            }
+        }
+    }
+}
