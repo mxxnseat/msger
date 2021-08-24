@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import Input from "./input";
 
-import {IRegisterFields} from "../types/fields";
+import {IRegisterFields} from "../../../types/fields";
 
 const Register: FC = () => {
     const [fields, setFields] = useState<IRegisterFields>({

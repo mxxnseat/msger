@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-import { BrowserRouter, Link, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Login from "./components/login";
 import Register from "./components/register";

@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom';
 
 import Input from "./input";
 
-import {ILoginFields} from "../types/fields";
+import {ILoginFields} from "../../../types/fields";
+
+
 
 const Login: FC = () => {
     const [fields, setFields] = useState<ILoginFields>({
@@ -17,6 +19,8 @@ const Login: FC = () => {
             [field]: value
         })
     }
+
+
 
     return (
         <>

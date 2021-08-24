@@ -1,5 +1,5 @@
 import { FC, ChangeEvent } from "react";
-import {IInputProps} from "../types/props";
+import {IInputProps} from "../../../types/props";
 
 const Input: FC<IInputProps> = ({placeholder, type, value, cb, field}) => {
 
