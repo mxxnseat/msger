@@ -2,11 +2,12 @@ import { FC, useEffect } from "react";
 import Chat from "./components/chat";
 import Auth from "./components/auth";
 
-const authenticate = new Authenticate();
 
 import { IAuth } from "./types/auth";
 
-import { Authenticate } from "./helpers/loginSend";
+import { Authenticate } from "./helpers/Authenticate";
+
+const authenticate = new Authenticate();
 
 const App: FC = () => {
 
