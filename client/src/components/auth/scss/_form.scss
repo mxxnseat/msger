@@ -1,0 +1,61 @@
+.authform{
+    width: 100%;
+    max-width: 280px;
+
+    &-wrapper{
+        min-height: 100vh;
+    }
+    &__label{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+    }
+    .input{
+        width: 100%;
+        outline: none;
+        padding: 8px 20px;
+        border: 1px solid #B5B5B5;
+        border-radius: 4px;
+        margin-bottom: 15px;
+        letter-spacing: 2px;
+    }
+    &__top-placeholder{
+        height: 25px;
+        display: flex;
+        letter-spacing: 2px;
+        align-items: center;
+        top: -12.5px;
+        position: absolute;
+        left: 20px;
+        color: #B5B5B5;
+        background-color: #fff;
+        padding: 0 5px;
+    }
+
+    .btn{
+        border: 1px solid #B5B5B5;
+        border-radius: 4px;
+        outline: none;
+        letter-spacing: 2px;
+        box-shadow: none;
+        width: 50%;
+        margin-left: auto;
+        color: #B5B5B5;
+        transition: color .1s ease-in;
+
+
+        &:hover{
+            color: #000000;
+        }
+    }
+    &__type{
+        font-size: 16px;
+        color: #3577EF;
+        letter-spacing: 1px;
+
+        a{
+            text-decoration: none !important;
+        }
+    }
+}
